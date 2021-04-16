@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: cloud-eureka-client-producer
+  profiles:
+    include: dev
 
 eureka:
   client:
